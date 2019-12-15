@@ -21,7 +21,7 @@ using namespace std;
 
 int main()
 {
-	//²ÎÊıSaber
+	//Â²ÃÃŠÃ½Saber
 	int n=256;
 	int eq=13;
 	int q=8192;//q=2^eq
@@ -283,7 +283,7 @@ int main()
 
 				//search the corresponding (a,b) of the first choice;
 				cout<<"there are "<<number<<" results, as shown above, ";
-				cout<<"in order to output the first result,"<<endl;
+				cout<<"in order to output the last result,"<<endl;
 				for (b = 0; b<p; b++)
 				{
 					for (a = 0; a<t; a++)
