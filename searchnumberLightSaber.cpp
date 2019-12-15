@@ -22,7 +22,7 @@ using namespace std;
 
 int main()
 {
-	//²ÎÊýLightSaber
+	//Â²ÃŽÃŠÃ½LightSaber
 	int n=256;
 	int eq=13;
 	int q=8192;//q=2^eq
@@ -222,7 +222,7 @@ int main()
 						if(controloutput==0)//only output the first choice
 						{
 							cout<<"In order to distinguish the other 9 values, we choose 6 columns so that each row of the selected matrix is different"<<endl;
-							cout<<"since 4th and 5th are the same£¬we only output one"<<endl;
+							cout<<"since 4th and 5th are the sameÂ£, we only output one"<<endl;
 							cout<<"the first choice is: "<<endl;
 							controloutput++;
 							for(g=0;g<pv-1;g++)//10 possible values
